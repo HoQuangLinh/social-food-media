@@ -42,10 +42,11 @@ const Menu = () => {
             aria-expanded="false"
           >
             <span
-              className="material-icons"
+              className="material-icons
+              "
               style={{ color: notify.data.length > 0 ? "crimson" : "" }}
             >
-              favorite
+              notifications
             </span>
 
             <span className="notify_length">{notify.data.length}</span>
